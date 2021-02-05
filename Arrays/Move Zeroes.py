@@ -19,7 +19,7 @@ a=[0,1,0,3,12]
 #         a[i:]
 # print(a)
 for i in range(len(a)):
-    if (a[i] == 0):
+    if a[i] == 0:
         a.remove(a[i])
         a.append(0)
 print(a)
