@@ -5,8 +5,7 @@ elan.bgcolor('Black')
 elan.title("Maze Runner")
 elan.setup(700,700)
 
-
- turtle.register_shape("Wizard")
+turtle.register_shape("Wizard")
 
 class Pen(turtle.Turtle):
     def __init__(self):
